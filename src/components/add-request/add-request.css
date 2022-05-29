@@ -1,0 +1,48 @@
+.add-request{
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-request .select-month{
+    margin: 2em 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+select{
+    width: 15em;
+    margin: 0 auto;
+}
+
+.add-request .select-month select{
+    width: 15em;
+    margin: 0 1em;
+}
+
+.add-request .this-month{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.add-request .next-month , .add-request .prev-month{
+    background-color: rgb(235, 235, 235);
+    color: rgb(148, 148, 148);
+    cursor: pointer;
+}
+
+.add-request .pass{
+    color: rgb(216, 216, 216);
+    cursor: default;
+}
+
+.add-request .selected{
+    color: #2653ce ;
+    font-weight: bold;
+}
+
+.td-div{
+    height: 100%;
+}

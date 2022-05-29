@@ -1,0 +1,27 @@
+.register{
+    margin: 2em 0;
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.register h1{
+    color: #19388A;
+}
+
+.register h1{
+    margin-bottom: 1em;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.register select{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.old-requests{
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.old-requests .waiting{
+    color: rgb(95, 95, 95);
+}
+.old-requests .confirmed{
+    color: rgb(42, 206, 27);
+}
+.old-requests .not-confirmed{
+    color: rgb(240, 11, 11);
+}

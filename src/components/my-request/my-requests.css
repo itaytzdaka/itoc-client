@@ -1,0 +1,30 @@
+.my-requests{
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-requests .waiting{
+    color: rgb(95, 95, 95);
+}
+.my-requests .confirmed{
+    color: rgb(42, 206, 27);
+}
+.my-requests .not-confirmed{
+    color: rgb(240, 11, 11);
+}
+
+
+
+.td-icon-delete{
+    width: 20px;
+}
+
+.td-icon-delete svg path{
+    cursor: pointer;
+    color: rgb(204, 204, 204);
+}
+.td-icon-delete svg path:hover{
+    color: rgb(77, 77, 77);
+}

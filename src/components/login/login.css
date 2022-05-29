@@ -1,0 +1,19 @@
+.login{
+    margin: 2em 0;
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.login h1{
+    margin-bottom: 3em;
+}
+
+.login form{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}

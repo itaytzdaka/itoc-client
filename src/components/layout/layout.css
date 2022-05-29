@@ -1,0 +1,6 @@
+
+.layout>div:nth-child(2){
+    direction: rtl;
+    overflow: auto;
+    flex-grow: 1;
+}

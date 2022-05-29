@@ -1,0 +1,10 @@
+.edit-user{
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-user form{
+    margin: 5em auto;  
+}

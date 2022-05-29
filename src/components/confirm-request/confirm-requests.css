@@ -1,0 +1,38 @@
+.confirm-requests{
+    direction: rtl;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-requests select{
+    height: 100%;
+    width: 100%;
+    font: inherit;
+    text-align: center;
+    border: none;
+}
+
+.confirm-requests span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font: inherit;
+    border: none;
+}
+
+.confirm-requests .waiting{
+    color: rgb(95, 95, 95);
+}
+.confirm-requests .confirmed{
+    color: rgb(15, 177, 0);
+}
+.confirm-requests .not-confirmed{
+    color: rgb(240, 11, 11);
+}
+
+.confirm-requests option{
+    color: black; 
+}
