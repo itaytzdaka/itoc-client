@@ -33,7 +33,11 @@ function Calendar() {
   useEffect(() => {
     console.log(parseInt(((new Date().getDate() + 7) / 7)), "parseInt(((new Date().getDate()+7)/7))");
 
-    const month = new Date(`${yearSelected}-${monthNow}-01`);
+    const month = new Date(`${yearSelected}-${monthNow+1}-01`);
+  
+    console.log("monthNow", new Date(`2023-1-01`));
+
+
     month.setMonth(monthSelected);
 
     const dateOfFirstDayOfMonth = new Date(month);
@@ -50,12 +54,16 @@ function Calendar() {
 
     const datesArray = [];
 
+
     for (let i = 0; i < weekFirstDayOfMonth; i++) {
       const date = new Date(month);
       date.setDate(0);
       date.setDate(date.getDate() - i);
       datesArray.push(date);
     }
+
+    console.log("datesArray step1", datesArray);
+
 
     datesArray.reverse();
 
@@ -64,6 +72,7 @@ function Calendar() {
       date.setDate(i);
       datesArray.push(date);
     }
+
 
     const daysLeft = 42 - datesArray.length;
 
@@ -82,6 +91,8 @@ function Calendar() {
 
 
   const defineCalendar = (datesArray) => {
+
+    console.log("defineCalendar datesArray ", datesArray);
 
     const cal = [];
 
@@ -134,6 +145,7 @@ function Calendar() {
 
 
   const setReqForCal = (cal) => {
+    console.log("cal setReqForCal ",cal);
     console.log(allRequests, "allRequests setReqForCal");
 
     allRequests.forEach((req) => {

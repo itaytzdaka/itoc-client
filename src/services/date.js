@@ -6,6 +6,8 @@ export function dateToString(date, format) {
         date=new Date(date);
     }
 
+    console.log(date);
+
     if(format==="dd.mm.yyyy")
         return `${addZero(date.getDate())}.${addZero(date.getMonth()+1)}.${date.getFullYear()}`;
     if(format==="dd.mm.yy")
